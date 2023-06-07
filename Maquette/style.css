@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    height: 100px;
+    position: relative;
+    left: 60px;
+}
+.navbar{
+    margin-top: 40px;
+}
+.list{
+    position: relative;
+    right: 150px;
+}
+.list1{
+    position: relative;
+    right: 120px;
+}
+
+.rech{
+    position: relative;
+    right: 90px;
+    border-color:#52AF52;
+}
+.rech1{
+    position: relative;
+     right: 130px;
+     border-color: #52AF52;
+     background-color: #52AF52;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 30px;
+}
+.parent1{
+    height: 80px;
+    width:20%;
+    background-color:#52AF52;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40%;
+   justify-content: center;
+   align-items: center;
+}
+.lien{
+    text-decoration: none;
+  }
+  .poss{
+    color: white;
+}
+.conta {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-image: url('IMAGE/wowam.jpg');
+    background-size: cover;
+    margin-top: 100px;
+    
+  }
+  .molp{
+    display: flex;
+    height: 600px;
+    background-color:#FFFFFF;
+    width: 65%;
+    margin: auto;
+    margin-top: 110px;
+    justify-content: center;
+  }
+  .good{
+    position: relative;
+    top: 60px;
+    width: 450px;
+    height: 80px;
+}
+.god{
+    position: relative;
+    top: 70px;
+    left: 150px;
+}
+.ouupp{
+    border-radius: 50px !important;
+    height: 60px;
+    border-color: black;
+}
+.sub{
+    background-color:#52AF52;
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+}
+.FlouNoir {
+    z-index: 5;
+    width: 100%;
+    height: 70%;
+    margin-top: 50px;
+    /* padding: 0px;
+    margin: 0px; */
+    background-color:rgba(0, 0, 0, 0.26);
+  }
+  .LogoPrprtes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    width: 100%;
+  }
+    .lgn1Foot {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .CoteGauche {
+        width: 48%;
+        margin-left: 150px;
+        min-width: 250px;
+        display: flex;
+        /* justify-content: center; */
+      }
+      .L1Gche {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        /* background-color: rgba(255, 0, 0, 0.241); */
+      }
+      .DivTelMail {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 400px;
+        align-items: start;
+        /* background-color: rgba(0, 0, 0, 0.565); */
+      }
+      .LiensFoot {
+        font-size: 28px;
+        font-weight: 200;
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .L1droite {
+        display: flex;
+        flex-direction: column;
+        margin-left: 900px;
+        align-items: start;
+        width: fit-content;
+        min-width: 250px;
+        height: fit-content;
+      }
+      .svlg {
+        width: 100% !important;
+      }
+     
