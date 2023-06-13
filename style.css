@@ -151,6 +151,7 @@
 
     input:focus{
         border: 1px solid #f3bc0a;
+        box-shadow: 0 0 10px rgba(0,0,0,5.2);
     }
     input[type="submit"]{
         margin-top: 25px;
@@ -163,7 +164,8 @@
     }
     form input {
         border-radius: 6px;
-        margin-left: 0px;
+        margin-top: 10px;
+
         
     }
     form button{
@@ -218,7 +220,6 @@
       table:hover {
         box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
       }
-      
-      
-      
+     
+     
              

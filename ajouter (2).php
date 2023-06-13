@@ -45,17 +45,17 @@ if(isset($_POST['button'])){
         </p>
         <form action="" method="post">
             <label>nom</label>
-            <input type="text" name="nom">
+            <input type="text" name="nom" placeholder="nom">
             <label>prenom</label>
-            <input type="text" name="prenom">
+            <input type="text" name="prenom"  placeholder="prenom">
             <label>date_de_naissance</label>
-            <input type="number" name="date_de_naissance">
+            <input type="date" name="date_de_naissance"  placeholder="date_de_naissance">
             <label>sexe</label>
-            <input type="text" name="sexe">
+            <input type="text" name="sexe" placeholder="sexe">
             <label>ville_d_origine</label>
-            <input type="text" name="ville_d_origine">
+            <input type="text" name="ville_d_origine" placeholder="ville_d_origine">
             <label>formation</label>
-            <input type="text" name="formation">
+            <input type="text" name="formation" placeholder="formation">
             <input type="submit" value="Ajouter" name="button">
             <a href="index.php" class="bTn_add" style="align-self:center; margin-top:20px; padding-right:148px;padding-left:148px">Annuler</a>
         </form>

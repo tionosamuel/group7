@@ -1,3 +1,11 @@
+<!-- <?php
+        // session_start();
+        // if(!$_SESSION['mdp']){
+        //     header('location:index.php');
+        // }
+        
+        ?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,9 +23,8 @@
         <form action="rechercher.php" method="POST">
             <input type="text" name="search" placeholder="rechercher un apprenant">
             <button type="submit">Rechercher</button>
+            <a href="Administrateur.php" class="Btn_add">Déconnexion</a>
         </form>
-
-
         <table>
             <tr id="items">
                 <th>Nom</th>
@@ -50,21 +57,26 @@
                         <td><?= $row['formation'] ?></td>
                         <!--nous allons mettre l'id de chaque employé dans ce lien-->
                         <td><a href="modifier.php?id=<?= $row['id'] ?>" class="bTn_add"> modifier</a></td>
-                        <td><a href="supprimer.php?id=<?= $row['id'] ?>" class="btn_add"> supprimer</a></td>
+                        <td><a href="supprimer.php?id=<?= $row['id'] ?>" class="btn_add" onclick="return confirmDelete();"> supprimer</a></td>
+
+
 
                     </tr>
             <?php
                 }
             }
             ?>
-
-           
         </table>
 
     </div>
 
+    <script>
+        function confirmDelete() {
+            return confirm("Êtes-vous sûr de vouloir supprimer cet élément ?");
+        }
+    </script>
 
-
+    <script src="js.sj"></script>
 </body>
 
 </html>

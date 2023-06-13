@@ -50,17 +50,17 @@ if(isset($_POST['button'])){
         </p>
         <form action="" method="post">
             <label>nom</label>
-            <input type="text" name="nom" value="<?=$row['nom']?>">
+            <input type="text" name="nom" placeholder="nom" value="<?=$row['nom']?>">
             <label>prenom</label>
-            <input type="text" name="prenom" value="<?=$row['prenom']?>">
+            <input type="text" name="prenom" placeholder="prenom" value="<?=$row['prenom']?>">
             <label>date_de_naissance</label>
-            <input type="number" name="date_de_naissance" value="<?=$row['date_de_naissance']?>">
+            <input type="number" name="date_de_naissance" placeholder="date_de_naissance" value="<?=$row['date_de_naissance']?>">
             <label>sexe</label>
-            <input type="text" name="sexe" value="<?=$row['sexe']?>">
+            <input type="text" name="sexe" placeholder="sexe" value="<?=$row['sexe']?>">
             <label>ville_d_origine</label>
-            <input type="text" name="ville_d_origine" value="<?=$row['ville_d_origine']?>">
+            <input type="text" name="ville_d_origine" placeholder="ville_d_origine" value="<?=$row['ville_d_origine']?>">
             <label>formation</label>
-            <input type="text" name="formation" value="<?=$row['formation']?>">
+            <input type="text" name="formation" placeholder="formation" value="<?=$row['formation']?>">
             <input type="submit" value="modifier" name="button">
             <a href="index.php" class="bTn_add" style="align-self:center; margin-top:20px; padding-right:148px;padding-left:148px">Annuler</a>
         </form>
